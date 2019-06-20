@@ -130,19 +130,25 @@ marker. Any characters that follow the // on a line are ignored.
     Take a look at the code below:
 
     ::
-        #include <iostream>
+
+        #include <iostream> 
         using namespace std;
 
         void dogWalk(int steps){
+
             for (int step = 0; step < steps; step++){
                 cout << "dog walked "<< step << " steps!"<< endl;
+
             }
+
         }
 
         int main() {
+
             dogWalk(11);
-            
+
             return 0;
+
         }
 
 .. mchoice:: dog_walker
